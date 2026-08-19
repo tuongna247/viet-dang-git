@@ -1,15 +1,7 @@
 # ============================================================
-# TẠM ẨN NỘI DUNG BÀI HỌC
-#
-# Ba dòng dưới đây giữ nội dung giảng dạy ở LOCAL, chưa đẩy lên GitHub,
-# để học viên không đọc trước đáp án và kịch bản giảng dạy.
-#
-# ➜ SAU KHI DẠY XONG, xoá 3 dòng đó rồi chạy:
-#       git add .
-#       git commit -m "Cong khai bo tai lieu bai hoc"
-#       git push
+# Ghi chu rieng cua giang vien, khong dua len repo chung.
+# Bo tai lieu bai hoc va README da duoc cong khai.
 # ============================================================
-README.md
 CLAUDE.md
 
 # ---- Rác hệ điều hành ----
