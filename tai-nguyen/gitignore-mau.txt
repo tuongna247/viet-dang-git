@@ -1,0 +1,64 @@
+# ============================================
+# FILE MẪU .gitignore
+# Cách dùng: copy nội dung này vào file tên .gitignore
+# đặt ở THƯ MỤC GỐC của repo, rồi commit.
+#
+#   cp tai-nguyen/gitignore-mau.txt .gitignore
+#   git add .gitignore
+#   git commit -m "Them .gitignore"
+# ============================================
+
+# --- Hệ điều hành ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# --- Bí mật: TUYỆT ĐỐI không commit ---
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+secrets.yml
+
+# --- Thư viện tải về ---
+node_modules/
+vendor/
+bower_components/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# --- Kết quả build ---
+dist/
+build/
+out/
+target/
+*.class
+*.o
+*.exe
+
+# --- Log và file tạm ---
+*.log
+logs/
+*.tmp
+*.bak
+*.swp
+*.swo
+~$*
+
+# --- IDE / Editor ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# --- File nén, file nặng ---
+*.zip
+*.rar
+*.7z
+*.iso

@@ -1,0 +1,5 @@
+Họ và tên: Nguyễn Văn A
+Năm sinh: 1995
+Số điện thoại: 0912345678
+Email: nguyenvana@example.com
+Vị trí: Backend Developer
