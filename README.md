@@ -37,6 +37,18 @@ Kết thúc khoá học, mỗi thành viên có thể:
 | 10 | **Bài Thực Hành số 2** — cố ý tạo conflict và tự xử lý, `.gitignore`, `git stash` | [10-thuc-hanh-2-conflict.md](bai-hoc/10-thuc-hanh-2-conflict.md) | 45 phút |
 | 6 | Lỗi thường gặp và cách xử lý | [06-loi-thuong-gap.md](bai-hoc/06-loi-thuong-gap.md) | 15 phút |
 
+## BUỔI 3 — Làm chủ thay đổi (Thứ Tư 26/08/2026)
+
+> 📌 **Đọc [15-phan-mem-can-cai.md](bai-hoc/15-phan-mem-can-cai.md) và cài đặt xong TRƯỚC buổi học.**
+> Buổi này đi thẳng vào thực hành, không dành thời gian cho cài đặt.
+
+| # | Nội dung | File | Thời lượng |
+|---|----------|------|-----------|
+| 15 | **Phần mềm cần cài** — làm trước ở nhà | [15-phan-mem-can-cai.md](bai-hoc/15-phan-mem-can-cai.md) | ở nhà |
+| 12 | **Theo dõi thay đổi & discard từng dòng** — `git diff`, hunk, `git add -p`, `git restore -p` | [12-theo-doi-va-discard-thay-doi.md](bai-hoc/12-theo-doi-va-discard-thay-doi.md) | 50 phút |
+| 14 | **Compare tool** — cắm công cụ so sánh vào Git, xử lý conflict bằng giao diện 3 cột | [14-compare-tool.md](bai-hoc/14-compare-tool.md) | 40 phút |
+| 13 | **Pull Request hiệu quả** — PR nhỏ, tự review, cách góp ý, bảo vệ nhánh `main` | [13-pull-request-hieu-qua.md](bai-hoc/13-pull-request-hieu-qua.md) | 50 phút |
+
 ## Dành riêng cho người đứng lớp
 
 | # | Nội dung | File |
