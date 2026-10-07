@@ -1,0 +1,43 @@
+# docker-compose.prod.yml — ĐÈ LÊN file dev khi chạy trên server thật
+# Chạy: docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+#
+# Khác dev ở 4 điểm:
+#   1. Không gắn volume code (dùng code đã build sẵn trong image)
+#   2. Không bật --reload
+#   3. Không mở port database ra ngoài internet
+#   4. Có giới hạn tài nguyên và cấu hình log
+
+services:
+  app:
+    image: ghcr.io/tuongna247/app-demo:latest
+    build: null
+    environment:
+      APP_ENV: production
+    volumes: []
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 512M
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  db:
+    # QUAN TRỌNG: bỏ ports để database KHÔNG lộ ra internet
+    ports: []
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  cache:
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
