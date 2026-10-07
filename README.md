@@ -13,6 +13,7 @@ Kết thúc khoá học, mỗi thành viên có thể:
 5. Tạo file, commit và push code đúng quy ước của team.
 6. Làm việc trên branch riêng và mở Pull Request để review chéo.
 7. Tự xử lý merge conflict mà không cần gọi người khác.
+8. Rebase nhánh của mình, gộp commit trước khi merge, cherry-pick bản sửa lỗi sang nhánh khác.
 
 ---
 
@@ -48,6 +49,14 @@ Kết thúc khoá học, mỗi thành viên có thể:
 | 12 | **Theo dõi thay đổi & discard từng dòng** — `git diff`, hunk, `git add -p`, `git restore -p` | [12-theo-doi-va-discard-thay-doi.md](bai-hoc/12-theo-doi-va-discard-thay-doi.md) | 50 phút |
 | 14 | **Compare tool** — cắm công cụ so sánh vào Git, xử lý conflict bằng giao diện 3 cột | [14-compare-tool.md](bai-hoc/14-compare-tool.md) | 40 phút |
 | 13 | **Pull Request hiệu quả** — PR nhỏ, tự review, cách góp ý, bảo vệ nhánh `main` | [13-pull-request-hieu-qua.md](bai-hoc/13-pull-request-hieu-qua.md) | 50 phút |
+
+## Merge, Rebase, Cherry-pick (Thứ Tư 07/10/2026)
+
+> 📌 Chạy [tai-nguyen/tao-repo-luyen-tap-16.sh](tai-nguyen/tao-repo-luyen-tap-16.sh) để có repo luyện tập riêng trên máy — không cần mạng, hỏng thì chạy lại.
+
+| # | Nội dung | File | Thời lượng |
+|---|----------|------|-----------|
+| 16 | **Merge, Rebase, Cherry-pick, Conflict** — gộp commit (squash), `--force-with-lease`, Merge Request = Pull Request, vì sao cần công cụ merge tốt, làm bằng GitKraken | [16-rebase-cherry-pick-va-merge-request.md](bai-hoc/16-rebase-cherry-pick-va-merge-request.md) | 80 phút |
 
 ## Dành riêng cho người đứng lớp
 
